@@ -3,7 +3,7 @@ import pickle
 import streamlit as st 
 
 # loading the saved model
-loaded_model = pickle.load(open(r'C:\Users\HomePC\Mr temitope class\Intro to ML\deployment_model.pkl', 'rb'))
+loaded_model = pickle.load(open("deployment_model.pkl", 'rb'))
 
 # A function that will process the user input
 def performance_prediction(input_data):
